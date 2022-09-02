@@ -1,6 +1,8 @@
-// 출력
+import java.util.Scanner;
+// java.util 패키지에 Scanner 를 사용하기 위해서는 import 를 통해 호출
 
-public class A1_Output {
+// 출력 + 입력
+public class A1_Output_Input {
     public static void main(String[] args) {
         System.out.println("HELLO JAVA WORLD!");
         // System.out.println(); 출력.
@@ -19,5 +21,8 @@ public class A1_Output {
         */
 
         // 주석( // = 한줄주석, /**/ = 여러줄 주석 )
+
+        Scanner a = new Scanner(System.in); // 입력
+        System.out.println(a); // 출력
     }
 }
