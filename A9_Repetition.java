@@ -64,6 +64,9 @@ public class A9_Repetition {
             if (i4 % 2 == 0) {
                 continue;
             }
+            if(i4 == 7) {
+                break;
+            }
             System.out.println(i4);
         }
     }
