@@ -12,7 +12,7 @@ public class C5_Enumeration {
 //        Level myLevel = Level.MEDIUM;
 //        System.out.println(myLevel); // out : MEDIUM
 
-        for (Level myLevel : Level.values()) {
+        for (Level myLevel : Level.values()) { // values 는 Level의 값
             System.out.println(myLevel);
         }
     }
